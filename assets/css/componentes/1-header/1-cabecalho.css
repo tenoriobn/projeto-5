@@ -1,0 +1,99 @@
+.cabecalho {
+    height: 100vh;
+    overflow-x: hidden!important;
+}
+
+.navbar__mod {
+    z-index: 2;
+    overflow-x: hidden!important;
+}
+
+/* Logo */
+.navbar-brand--mod {
+    color: var(--branco-medio)!important;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 39.2px;
+}
+
+.navbar_brand__mod-alt {
+    color: var(--roxo-forte);
+    font-weight: 700;
+}
+
+.navbar__icon-hamburguer {
+    background-image: url(../../../img/icon/menu-hamburguer.png);
+    width: 1.5625rem;
+}
+
+/* Botão Menu Mobile */
+.navbar-mobile {
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.barra-menu-width {
+    background-image: url(../../../img/banner/header-bannerChamada.svg);
+    background-position: 10% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn__close--mod {
+    background: url(../../../img/icon/menu-hamburguer.png) center/1.6em auto no-repeat!important;
+}
+
+/* Lista Menu */
+.navbar-nav--mod {
+    gap: 1.5rem;
+}
+
+.nav-link--mod {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6875rem;
+}
+
+/* Botão */
+.btn-mod {
+    color: var(--branco)!important;
+    font-size: .9375rem;
+    font-family: 400;
+    line-height: 1.35rem;
+
+    width: 5.625rem;
+}
+
+.btn-signUp {
+    border: var(--roxo-forte)!important;
+    background-color: var(--roxo-forte)!important;
+}
+
+.btn-signUp:hover {
+    color: var(--preto)!important;
+    background-color: var(--branco-medio)!important;
+}
+
+.btn-signUp:active {
+    background-color: var(--roxo-claro)!important;
+    border: var(--roxo-claro)!important;
+}
+
+.btn-login {
+    border-color: var(--branco)!important;
+}
+
+.btn-login:hover {
+    color: var(--preto)!important;
+    background-color: var(--branco-medio)!important;
+}
+
+@media screen and (min-width: 992px) {
+    .barra-menu-width {
+        background-image: none!important;
+    }
+
+    .navbar-nav--mod {
+        gap: 2.5rem;
+    }
+}

@@ -1,0 +1,115 @@
+.chamada {
+    z-index: 1;
+    overflow-x: hidden!important;
+}
+
+.carrossel__banner {
+    background-image: url(../../../img/banner/header-bannerChamada.svg);
+    background-position: 60% 40%!important;
+    background-size: cover;
+
+    width: 99.9vw;
+    height: 100vh;
+    display: block;
+
+    overflow-x: hidden!important;
+}
+
+.carrossel__legenda {
+    position: absolute;
+    top: 50%!important;
+    left: 50%;
+    transform: translate(-50%, -50%)!important;
+}
+
+.carrossel__subtitulo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.88rem;
+}
+
+.carrossel__paragrafo {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+
+    margin-top: 1.0625rem;
+
+    width: 250px;
+}
+
+.carrossel__btn {
+    background-color: var(--roxo-forte)!important;
+    color: var(--branco);
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+
+    margin-top: 2rem;
+
+    height: 3.6875rem;
+    width: 10.125rem;
+}
+
+.carrossel__btn:hover {
+    background-color: var(--roxo-medio)!important;
+}
+
+.carrossel__btn:active {
+    background-color: var(--roxo-claro)!important;
+    border: none!important;
+}
+
+@media screen and (min-width: 768px) {
+    .carrossel__banner{
+        background-position: 83% 40%!important;
+    }
+
+    .carrossel__legenda {
+        left: inherit;
+        transform: translateY(-50%)!important;
+    }
+
+    .carrossel__subtitulo {
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 4.44rem;
+
+        width: 417px;
+    }
+
+    .carrossel__paragrafo {
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 2.1rem;
+
+        margin-top: 1.0625rem;
+
+        width: 417px;
+    }
+
+    .carrossel__btn {
+        background-color: var(--roxo-forte);
+        color: var(--branco);
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+
+        margin-top: 4rem;
+
+        height: 3.6875rem;
+        width: 10.125rem;
+    }
+
+    .carrossel__control {
+        width: 35px!important;
+    }  
+}
+
+@media screen and (min-width: 1400px) {
+    .carrossel__control {
+        width: 5%!important;
+    }
+
+    .carrossel__control--next {
+        width: 6%!important;
+    }    
+}

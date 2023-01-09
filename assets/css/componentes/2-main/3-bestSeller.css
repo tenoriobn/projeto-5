@@ -1,0 +1,51 @@
+.bestSeller {
+    padding-top: 2.5rem;
+    padding-bottom: 3.375rem;
+}
+
+.container__card-bestSeller {
+    margin-top: .1rem!important;
+}
+
+.container__card-pricing {
+    margin-top: 1.0625rem!important;
+    padding-bottom: .5rem!important;
+}
+
+.card__pricing {
+    color: var(--roxo-forte);
+    line-height: 1.4rem;
+}
+
+.card__pricing-mod {
+    border-radius: .25rem;
+    background-color: var(--roxo-claro);
+    padding: .25rem .625rem .25rem .625rem;
+}
+
+.card__pricing-color {
+    background-color: var(--branco-gelo);
+    color: var(--cinza-prateado)!important;
+
+    padding-bottom: .0938rem;
+    padding-top: .0938rem;
+
+    padding-left: 6px;
+
+    text-decoration: line-through;
+}
+
+.pricing__desconto {
+    background-color: var(--rosa-claro);
+    border-radius: .25rem;
+    color: var(--rosa)!important;
+
+    padding: .1875rem;
+}
+
+@media screen and (min-width: 992px) {
+    .bestSeller {
+        padding-top: 2.5rem;
+        padding-bottom: 3.375rem;
+    }    
+}

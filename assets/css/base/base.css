@@ -1,0 +1,59 @@
+@import url(../../css/base/_variaveis.css);
+@import url(../../css/componentes/1-header/1-cabecalho.css);
+@import url(../../css/componentes/1-header/2-chamada.css);
+@import url(../../css/componentes/2-main/1-whyUs.css);
+@import url(../../css/componentes/2-main/2-genres.css);
+@import url(../../css/componentes/2-main/3-bestSeller.css);
+@import url(../../css/componentes/2-main/4-popular.css);
+@import url(../../css/componentes/2-main/5-coming.css);
+@import url(../../css/componentes/2-main/6-feedback.css);
+@import url(../../css/componentes/3-footer/1-rodape.css);
+
+html {
+    overflow-x: hidden!important;
+}
+
+body {
+    color: var(--cinza-escuro)!important;
+    font-family: var(--lexend)!important;
+    font-weight: 500!important;
+
+    overflow-x: hidden!important;
+}
+
+.section__subtitulo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2.15rem;
+}
+
+.section__link--SeeAll {
+    color: var(--roxo-forte);
+    font-size: .85rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.container__card {
+    margin-top: .1rem!important;
+}
+
+.card__title--mod {
+    color: var(--cinza-escuro);
+    line-height: 1.625rem;
+
+    margin-top: .9375rem!important;
+}
+
+@media screen and (min-width: 992px) {
+    .section__subtitulo {
+        font-size: 2.25rem;
+        line-height: 3.15rem;
+    }
+
+    .section__link--SeeAll {
+        color: var(--roxo-forte);
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+    }
+}

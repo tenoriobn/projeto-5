@@ -1,0 +1,25 @@
+.genres {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.genres__card {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.card__subtitulo {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+}
+
+.card__subtitulo--alternativo {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {  
+    .genres__card {
+        margin-top: 0rem;
+        margin-bottom: 2.5rem;
+    }
+}
